@@ -1,9 +1,9 @@
 import React from 'react'
 
-const newsIdPage = () => {
+const newsByIDPage = () => {
   return (
     <div>newsIDPage</div>
   )
 }
 
-export default newsIdPage
+export default newsByIDPage
