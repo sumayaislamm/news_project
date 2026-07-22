@@ -3,7 +3,9 @@ import React from "react";
 const dashboardLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
-      dashboardLayout
+      <div>
+        <h1>This is the layout of dashboard!</h1>
+      </div>
       {children}
     </div> 
   );
