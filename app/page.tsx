@@ -11,7 +11,6 @@ export default function Home() {
        <Suspense fallback={<p>Loading blogs...</p>}>
        Go to blog page : <Link href={"/blogs"}> Blogs</Link>
       </Suspense>
-      
       <br />
       <LikeButton></LikeButton>
     </div>
